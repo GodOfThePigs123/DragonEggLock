@@ -1,0 +1,9 @@
+name: DragonEggLock
+version: 1.0.0
+main: me.server.dragoneggprotect.DragonEggLock
+api-version: '1.21'
+description: Placed dragon eggs cannot be moved, teleported, exploded or broken.
+permissions:
+  dragoneggprotect.bypass:
+    description: Allows breaking placed dragon eggs
+    default: op
